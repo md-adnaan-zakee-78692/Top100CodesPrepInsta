@@ -12,4 +12,5 @@ int main(){
     cin >> num1;
     int res = isPerfectSquare(num1) ;
     cout << res ;
+    return 0 ;
 }

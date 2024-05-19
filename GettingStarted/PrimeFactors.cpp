@@ -16,4 +16,5 @@ int main(){
     cout << "Enter a number: " ;
     cin >> num ;
     primeFactors(num) ;
+    return 0 ;
 }

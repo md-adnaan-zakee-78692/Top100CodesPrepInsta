@@ -1,3 +1,7 @@
+/*If a year is divisible by 4, it is a leap year.
+If a year is divisible by 100, it is not a leap year unless:
+If a year is divisible by 400, it is a leap year.*/
+
 #include<iostream>
 using namespace std ;
 
@@ -12,4 +16,5 @@ int main(){
     cin >> year ;
     int res = isLeap(year) ;
     cout << res ;
+    return 0 ;
 }

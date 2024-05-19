@@ -1,3 +1,5 @@
+/*An Amrstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits.*/
+
 #include <iostream>
 #include <math.h>
 using namespace std ;
@@ -29,4 +31,5 @@ int main(){
     cout << "Enter the range: " ;
     cin >> start >> end ;
     armstrongNumbers(start, end) ;
+    return 0 ;
 }

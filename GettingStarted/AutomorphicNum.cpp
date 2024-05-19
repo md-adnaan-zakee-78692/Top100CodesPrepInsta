@@ -1,3 +1,5 @@
+/*An Automorphic number is a number, whose square ends with the same digits as the number itself.*/
+
 #include <iostream>
 using namespace std;
 
@@ -17,4 +19,5 @@ int main(){
     cin >> num1 ;
     int res = isAutomorphic(num1) ;
     cout << res ;
+    return 0 ;
 }

@@ -23,4 +23,5 @@ int main(){
     cout << "Enter Range: " ;
     cin >> start >> end ;
     primeNumbers(start, end) ;
+    return 0 ;
 }

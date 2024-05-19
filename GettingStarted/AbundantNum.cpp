@@ -1,3 +1,5 @@
+/*Abundant number is a number in which the sum of the proper divisors of the number is greater than the number itself.*/
+
 #include <iostream>
 using namespace std ;
 
@@ -23,4 +25,5 @@ int main(){
     cin >> num1 ;
     int res = isAbundant(num1) ;
     cout << res ;
+    return 0 ;
 }

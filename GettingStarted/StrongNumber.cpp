@@ -1,3 +1,5 @@
+/*Strong Numbers is a number in which the sum of the factorial of individual digits of the numbers is equal to the number itself.*/
+
 #include <iostream>
 using namespace std ;
 
@@ -27,4 +29,5 @@ int main(){
     cin >> num ;
     int res = isStrongNum(num) ;
     cout << res ;
+    return 0 ;
 }

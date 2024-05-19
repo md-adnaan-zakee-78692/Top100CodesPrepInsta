@@ -16,4 +16,5 @@ int main(){
     cout << "Enter a number: " ;
     cin >> num ;
     cout << isPalindrome(num) ;
+    return 0 ;
 }

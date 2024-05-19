@@ -17,4 +17,5 @@ int main(){
     cout << "Enter how many terms in the fibonacci series: " ;
     cin >> limit ;
     fibonacci(limit) ;
+    return 0 ;
 }

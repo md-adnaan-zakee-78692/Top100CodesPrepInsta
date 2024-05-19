@@ -17,5 +17,6 @@ int main(){
     cout << "Enter which term of the series you want: " ;
     cin >> n ;
     cout << nthFibonacci(n) ;
+    return 0 ;
     // Try this question with Matrix multiplication also.
 }
